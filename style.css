@@ -1,0 +1,33 @@
+* {
+    font-size: 14px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-id, 
+.id {
+    font-size: 2rem;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.sl-cp-btn {
+    color: blue;
+}
+
+.bd-cp-btn {
+    color: red;
+}
+
+.link-container > nav {
+    display: flex;
+    justify-content: space-evenly;
+}

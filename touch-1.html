@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automate Personalized Emails</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="touch-1.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="link-container">
+      <nav>
+        <a href="touch-1.html">Touch 1</a>
+        <a href="touch-2.html">Touch 2</a>
+        <a href="touch-3.html">Touch 3</a>
+      </nav>
+    </div>
+  </header>
+  <section class="wrapper"></section>
+  <template id="script-template">
+    <div class="container">
+      <h1 class="email-id">Email Number: <span class="id"></span></h1>
+      
+      <button class="btn">copy subject line</button>
+      <p class="subject-line">quick question about <span class="company"></span></p>
+
+      <button class="btn">copy body</button>
+      <div class="email-body">
+        <p>Hey <span class="name"></span>.</p>
+        <p class="first-line"></p>
+        <p>I run an agency specialized in email marketing. I’ve got a couple ideas that can increase 200% in email revenue in 90 days.</p>
+        <p>Do you have 15 min to talk about this or next week?</p>
+      </div>
+      <hr>
+    </div>
+  </template>
+</body>
+</html>
+<!-- A/B Test: I run an agency specialized in email marketing. I’ve got a couple ideas that can double your email revenue in 90 days.-->

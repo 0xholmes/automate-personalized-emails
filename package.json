@@ -1,0 +1,19 @@
+{
+  "name": "automate_personalized_emails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel touch-1.html touch-2.html touch-3.html",
+    "build": "parcel build touch-1.html touch-2.html touch-3.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.8"
+  }
+}
